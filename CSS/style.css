@@ -142,6 +142,12 @@ a:hover{
     background-color: var(--second-alpha-color);
 }
 
+/* color del asterisco*/
+
+.text-first-color{
+    color: var(--first-color);
+}
+
 /*   X-Small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap */
 
