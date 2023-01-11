@@ -62,7 +62,24 @@
             </p>
           </article>
           <article class="col-12 col-lg-6 order-lg-1">
-            formulario
+            <form action="https://formsubmit.co/jw.vera.r@gmail.com" method="POST">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+              <input type="hidden" name="_subject" value="Comentario de curso de Bootsrap">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" class="form-control" required>
+                
+              </div>
+              <div class="mb-3">
+                <label for="email"  class="form-label">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Dejanos tus comentarios"   class="form-control" required>   
+              </div>
+              <div class="mb-3">
+                <label for="comments"  class="form-label">Comentarios:</label>
+                <textarea name="comments" id="comments" cols="30" rows="5"  class="form-control" required></textarea>
+              </div>
+              <input type="submit" class="btn btn-lg btn-success">
+            </form>
           </article>
           <article class="col-12 col-lg-6">
             <div class="ratio ratio-16x9">
@@ -72,39 +89,34 @@
         </section>
       </div>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
+          <div class="carousel-caption bg-second-alpha-color ">
+            <article>
+              <aside>
+                <p class="fs-4"><b>Jeison vera</b>,</p>
+                <p class="fs-5 d-none d-sm-block">Desarrollador Web.</p>
+              </aside>
+              <aside class="d-none d-md-block">
+                <p>Comencé a crear sitios y aplicaciones web en <b>2004</b>.</p>
+                <p>Valoro mucho el concepto de<b>"menos es más"</b>.</p>
+                <p>Trabajo de forma remota e independiente.</p>
+              </aside>
+            </article>
+          </div>
           <div class="carousel-item active">
             <img src="/img/about-1.jpg" class="d-block w-100" alt="Acerca 1">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
           </div>
           <div class="carousel-item">
             <img src="/img/about-2.jpg" class="d-block w-100" alt="Acerca 2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+            
           </div>
           <div class="carousel-item">
             <img src="/img/about-3.jpg" class="d-block w-100" alt="Acerca 3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+            
           </div>
           <div class="carousel-item">
             <img src="/img/about-4.jpg" class="d-block w-100" alt="Acerca 4">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+          
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

@@ -126,6 +126,10 @@ a:hover{
 
 
   }
+ /* componente de bootstrap */
+  .carousel-caption{
+    z-index: 1;
+  }
 /***********My styles****************/
 
 .bg-alpha-color{
